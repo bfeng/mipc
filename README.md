@@ -17,15 +17,16 @@
 * * The exception conditions of the system calls
 
 ----------
+
 ## You should submit the following: ##
-- A bootable MINIX with your new IPC system calls
-- Test programs that show your new IPC system calls meeting their requirements 
-- A readme file that describes how to install your enhanced MINIX and how to execute your test programs
-- A six-page (min. 10 point fonts) design document that includes the following: 
-- Manual pages for your new system calls
-- The design of your system calls
-- Possible exceptions and their handling methods
-- The reasons behind your decision to make the retrieve system call non-blocking or blocking.
-- Detection and recovery from deadlock if needed. Or why if not needed,
-- Resource management, if any.
-- Each team member must submit a self evaluation
+* A bootable MINIX with your new IPC system calls
+* Test programs that show your new IPC system calls meeting their requirements 
+* A readme file that describes how to install your enhanced MINIX and how to execute your test programs
+* A six-page (min. 10 point fonts) design document that includes the following: 
+* Manual pages for your new system calls
+* The design of your system calls
+* Possible exceptions and their handling methods
+* The reasons behind your decision to make the retrieve system call non-blocking or blocking.
+* Detection and recovery from deadlock if needed. Or why if not needed,
+* Resource management, if any.
+* Each team member must submit a self evaluation
