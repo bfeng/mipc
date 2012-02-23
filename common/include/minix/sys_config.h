@@ -55,3 +55,8 @@ error "_MINIX_MACHINE has incorrect value (0)"
 #define _KMESS_BUF_SIZE  10000
 
 #endif /* _MINIX_SYS_CONFIG_H */
+
+/* Added by release script  */
+#ifndef _VCS_REVISION
+#define _VCS_REVISION "41e69065b9"
+#endif
