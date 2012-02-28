@@ -1,0 +1,11 @@
+Test Program for MIPC Server
+
+How to run
+==========
+
+  1. Type `make run` to prepare and run test.
+  2. When done testing, type `make clean` to clean up.
+
+How the test works
+==================
+
