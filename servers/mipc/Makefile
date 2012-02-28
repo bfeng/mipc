@@ -1,6 +1,6 @@
 # Makefile for Data Store Server (DS)
 PROG=	mipc
-SRCS=	main.c
+SRCS=	main.c manager.c
 
 DPADD+=	${LIBSYS}
 LDADD+=	-lsys

@@ -1,4 +1,4 @@
-/* 
+/* MIPC - Minix Inner process communication
  * 
  * Created:
  *   2/24/2012  by Bo Feng
@@ -26,21 +26,23 @@ PUBLIC int main(int argc, char **argv)
   env_setargs(argc, argv);
   sef_local_startup();
 
-  puts("Hello, world");
   /* Main loop - get work and do it, forever. */         
   while(TRUE) {
       /* Wait for incoming message, sets 'callnr' and 'who'. */
       get_work(&m);
 
       if (is_notify(callnr)) {
-          printf("DS: warning, got illegal notify from: %d\n", m.m_source);
+          printf("MIPC: warning, got illegal notify from: %d\n", m.m_source);
           result = EINVAL;
           goto send_reply;
       }
 
       switch (callnr) {
+        case MIPC_CREATE_GRP:
+            result = do_create_grp(&m);
+            break;
       default: 
-          printf("DS: warning, got illegal request from %d\n", m.m_source);
+          printf("MIPC: warning, got illegal request from %d\n", m.m_source);
           result = EINVAL;
       }
 

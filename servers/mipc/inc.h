@@ -32,4 +32,5 @@
 #include <string.h>
 #include <signal.h>
 
+#include "proto.h"
 #endif
