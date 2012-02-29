@@ -3,7 +3,7 @@
 void test_create_grp(void)
 {
   message dummy_msg;
-  _syscall(MIPC, MIPC_CREATE_GRP, &dummy_msg);
+  _syscall(MIPC_PROC_NR, MIPC_CREATE_GRP, &dummy_msg);
 }
 
 /* SEF functions and variables. */

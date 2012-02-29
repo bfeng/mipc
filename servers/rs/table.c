@@ -40,6 +40,7 @@ PUBLIC struct boot_image_sys boot_image_sys_table[] = {
   { LOG_PROC_NR,      SRV_SF                            },
   { MFS_PROC_NR,      0                                 },
   { PFS_PROC_NR,      SRV_SF                            },
+  { MIPC_PROC_NR,     SRV_SF                            },
   { DEFAULT_BOOT_NR,  SRV_SF                            } /* default entry */
 };
 

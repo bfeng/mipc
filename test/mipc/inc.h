@@ -1,6 +1,7 @@
 #define _MINIX
 #define _SYSTEM
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include <assert.h>
 #include <errno.h>
@@ -11,5 +12,4 @@
 #include <minix/type.h>
 #include <minix/const.h>
 #include <minix/endpoint.h>
-//#include <minix/mipc.h>
 #include <minix/syslib.h>
