@@ -71,6 +71,7 @@ PUBLIC struct boot_image image[] = {
 {MFS_PROC_NR,  BVM_F,        128, "mfs"   },
 {VM_PROC_NR,       0,        128, "vm"    },
 {PFS_PROC_NR,  BVM_F,        128, "pfs"   },
+{MIPC_PROC_NR,     0,         32, "mipc"  },
 {INIT_PROC_NR, BVM_F,         64, "init"  },
 };
 

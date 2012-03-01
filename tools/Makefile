@@ -29,6 +29,7 @@ PROGRAMS= \
 	../servers/mfs/mfs \
 	../servers/vm/vm \
 	../servers/${PFS}/pfs \
+	../servers/mipc/mipc \
 	../servers/init/init
 
 usage:	

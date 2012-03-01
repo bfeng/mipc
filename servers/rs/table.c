@@ -25,6 +25,7 @@ PUBLIC struct boot_image_priv boot_image_priv_table[] = {
 {LOG_PROC_NR,  "log",    SRV_F  },
 {MFS_PROC_NR,"fs_imgrd", SRV_F  },
 {PFS_PROC_NR,  "pfs",    SRV_F  },
+{MIPC_PROC_NR, "mipc",   SRV_F  },
 {INIT_PROC_NR, "init",   USR_F  },
 {NULL_BOOT_NR, "",       0,     } /* null entry */
 };
@@ -39,6 +40,7 @@ PUBLIC struct boot_image_sys boot_image_sys_table[] = {
   { LOG_PROC_NR,      SRV_SF                            },
   { MFS_PROC_NR,      0                                 },
   { PFS_PROC_NR,      SRV_SF                            },
+  { MIPC_PROC_NR,     SRV_SF                            },
   { DEFAULT_BOOT_NR,  SRV_SF                            } /* default entry */
 };
 
